@@ -9,4 +9,5 @@
    > python train.py -g 0 -m MDCLBR -d Youshu
 
    You can specify the gpu id and the used dataset by cmd line arguments, while you can tune the hyper-parameters by revising the configy file. The detailed introduction of the hyper-parameters can be seen in the config file, and you are highly encouraged to read the paper to better understand the effects of some key hyper-parameters.
+   
 3.This is the initial code cleanup. We will continue to refine it further. Please wait.
