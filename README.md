@@ -3,8 +3,6 @@
 1. Decompress the dataset file into the current folder: 
 
    > tar -zxvf dataset.tgz
- 
-   Noted: for the iFashion dataset, we incorporate three additional files: user\_id\_map.json, item\_id\_map.json, and bundle\_id\_map.json, which record the id mappings between the original string-formatted id in the POG dataset and the integer-formatted id in our dataset. You may use the mappings to obtain the original content information of the items/outfits. We do not use any content information in this work.
 
 2. Train MDCLBR on the dataset Youshu with GPU 0: 
 
